@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabootcher Portfolio</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <p href="#" class="navLink">Фотосеты</p>
+        <p href="#" class="navLink">Обо мне</p>
+        <p href="#" class="navLink Logo">KABOOTCHER</p>
+        <p href="#" class="navLink">Подход</p>
+        <p href="#" class="navLink">Контакты</p>
+    </header>
+    <main class="main">
+
+        <div class="flexWrapper HelloBlock">
+            <div class="MainText firstText">Принты, которые <br> привлекут вам <br> клиентов</div>
+
+            <img class="mainImg" src="img/mainIMG/HeaderImg.png" alt="">
+        </div>
+
+
+        <div class="Firstproj ProjPreview">
+            <div class="imgBlock">
+                <div class="ProjNumBlock firstNum">
+                    <p class="ProjNumText">01</p>
+                </div>
+                <img src="img/mainIMG/1ProjPrev.png" alt="" class="Previewimg">
+
+            </div>
+
+            <div class="textBlock FirstTextBlock">
+                <p class="ProjTitle">Красота <br> Природы</p>
+                <p class="projSubtitle"> Фотосет, посвященный мелким
+                    деталям, которые многие не
+                    замечают в своём окружении.
+                </p>
+
+                <p id="FirstProjButton" class="ProjButton" href="#">Подробнее</p>
+            </div>
+        </div>
+
+        <div class="FirstProjFull projFull" style="display: none;">
+            <div class="ProjWrap">
+                <p href="#" class="ProjButton" id="CloseFirstButton">← Назад</p>
+                <div class="ProjectTitleBlock">
+                    <div class="PTitle">
+                        <p class="ProjNumText">01</p>
+                        <p class="ProjTitle">Красота Природы</p>
+                    </div>
+                    <p class="projSubtitle"> Фотосет, посвященный мелким
+                        деталям, которые многие не
+                        замечают в своём окружении.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="sliderBlock">
+
+
+                <img onclick="prevSlide()" src="img/arrowLeft.png" class="arrowBack">
+                <div class="ForSlider">
+                    <div class="forImages">
+
+
+                        <img src="img/First/1.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/First/2.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/First/3.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/First/4.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/First/5.png" alt="" style="display: none;" class="slides">
+                        <img src="img/First/6.png" alt="" style="display: none;" class="slides">
+                        <img src="img/First/7.png" alt="" style="display: none;" class="slides">
+                        <img src="img/First/8.png" alt="" style="display: none;" class="slides">
+                    </div>
+                </div>
+                <img onclick="nextSlide()" src="img/arrowRight.png" class="arrowForward">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="Secondproj ProjPreview" >
+            <div class="imgBlock">
+                <div class="ProjNumBlock secondNum">
+                    <p class="ProjNumText">02</p>
+                </div>
+                <img src="img/mainIMG/2ProjPrev.png" alt="" class="Previewimg">
+
+            </div>
+
+            <div class="textBlock SecondText">
+                <p class="ProjTitle">Красота <br> Города</p>
+                <p class="projSubtitle"> Фотосет, посвященный тому,
+                    что каждый видит, но на что не каждый
+                    обращает внимание.
+                </p>
+
+                <p id="SecondProjButton" class="ProjButton" href="#">Подробнее</p>
+            </div>
+        </div>
+
+
+        <div class="SecondProjFull projFull" style="display: none;">
+            <div class="ProjWrap">
+                <p href="#" class="ProjButton" id="CloseSecondButton">← Назад</p>
+                <div class="ProjectTitleBlock">
+                    <div class="PTitle">
+                        <p class="ProjNumText">02</p>
+                        <p class="ProjTitle">Красота Города</p>
+                    </div>
+                    <p class="projSubtitle"> Фотосет, посвященный тому,
+                        что каждый видит, но на что не каждый
+                        обращает внимание.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="sliderBlock">
+                <img onclick="prevSlide()" src="img/arrowLeft.png" class="arrowBack">
+
+                <div class="forSlider">
+                    <div class="forImages">
+                        <img src="img/Second/1.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/Second/2.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/Second/3.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/Second/4.png" alt="" style="display: flex;" class="slides">
+                        <img src="img/Second/5.png" alt="" style="display: none;" class="slides">
+                        <img src="img/Second/6.png" alt="" style="display: none;" class="slides">
+                        <img src="img/Second/7.png" alt="" style="display: none;" class="slides">
+                        <img src="img/Second/8.png" alt="" style="display: none;" class="slides">
+                    </div>
+                </div>
+
+
+                <img onclick="nextSlide()" src="img/arrowRight.png" class="arrowForward">
+            </div>
+
+
+
+
+        </div>
+
+        <div class="titleWrap">
+            <p class="title">ОБО МНЕ</p>
+        </div>
+
+
+
+
+        <div class="flexWrapper">
+            <p class="MainText firstText textSmall alignR">Привет, Я - Олег. Начинающий фотограф, <br>
+                программист, художник и геймдизайнер. <br>
+                Сейчас учусь в СПБГУПТД. Для меня фотография
+                - это способ запечатлить интересную композицию и распространить её среди интересующихся людей.</p>
+
+
+            <img src="img/mainIMG/MyPhoto.png" alt="" class="mainImg">
+        </div>
+
+
+        <div class="titleWrap">
+            <p class="title">МОЙ ПОДХОД</p>
+        </div>
+
+
+        <div class="flexWrapper myWay">
+            <p class="MainText firstText alignR textSmall">У меня нет каких либо принципов в том,<br>
+                что именно мне снимать. Я просто делаю фотографии
+                того, что сам считаю красивым, а потом,
+                обрабатываю это так, чтобы оно стало красивым <br>
+                для всех.</p>
+            <img src="img/mainIMG/MyWay.png" class="mainImg myWay">
+
+
+        </div>
+
+
+        <div class="titleWrap">
+            <p class="title">МОИ УСЛУГИ</p>
+        </div>
+
+        <div class="sliderBlock">
+            <img onclick="prevSlide()" src="img/arrowLeft.png" class="arrowBack">
+
+            <div class="forSlider">
+                <div class="forImages">
+                    <div class=" slides flexWrapper" id="PriceCard1" style="display: flex;">
+                        <div class="MainText firstText alignR textSmall">
+                            <p class="PriceTitle">Макро - 3000р</p>
+                            <ul>
+                                <li>Фотосъемка от одного часа</li>
+                                <li>15 - 30 фото за съемку</li>
+                                <li>Базовая обработка фотографий</li>
+                            </ul>
+                        </div>
+
+                        <img src="img/mainIMG/macroPrice.png" class="mainImg PriceMacro">
+
+
+                    </div>
+
+                    <div class=" slides flexWrapper" style="display: none;" id="PriceCard2">
+                        <div class="MainText firstText alignR textSmall">
+                            <p class="PriceTitle">Пейзаж - 2000р</p>
+                            <ul>
+                                <li>Фотосъемка от трёх часов</li>
+                                <li>от 30 фото за съемку</li>
+                                <li>Базовая обработка фотографий</li>
+                            </ul>
+                        </div>
+
+                        <img src="img/mainIMG/LandscapePrice.png" class="mainImg PriceLand">
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <img onclick="nextSlide()" src="img/arrowRight.png" class="arrowForward">
+        </div>
+        <div class="titleWrap">
+            <p class="title">ПРИМЕРЫ РАБОТ</p>
+        </div>
+
+
+
+        <div class="sliderBlock">
+            <img onclick="prevSlide()" src="img/arrowLeft.png" class="arrowBack">
+
+            <div class="forSlider">
+                <div class="forImages">
+                    <img src="img/mainIMG/sweaterMockup.png" alt="" style="display: flex;" class="slides mockImg">
+                    <img src="img/mainIMG/TshirtMockup.png" alt="" style="display: flex;" class="slides mockImg">
+                    <img src="img/mainIMG/wallMockup.png" alt="" style="display: none;" class="slides mockImg">
+                    <img src="img/mainIMG/wallMockup2.png" alt="" style="display: none;" class="slides mockImg">
+                </div>
+            </div>
+
+
+            <img onclick="nextSlide()" src="img/arrowRight.png" class="arrowForward">
+        </div>
+
+
+        <div class="titleWrap">
+            <p class="title">ОСТАВЬ ЗАЯВКУ И Я ОТВЕЧУ</p>
+        </div>
+
+        <div class="inputBlock">
+            <input class="inputField" placeholder="Ваше имя" type="text" id="name" name="name" />
+            <input class="inputField" placeholder="Ваша почта" type="email" id="email" name="email" />
+            <input  class="btn btn-open submitButton" value="Отправить" type="button" id="submit" name="submit" />
+       
+       
+       
+       
+            <section class="modal hidden">
+                <div class="flex">
+                  <button class="btn-close">⨉</button>
+                </div>
+                <div>
+                  <h3>Спасибо за отправленную заявку</h3>
+                  <p>
+                    Я свяжусь с вами в ближайшее время
+                  </p>
+                </div>
+              
+              </section>
+    
+              <div class="overlay hidden"></div>
+        </div>
+
+        <div class="follow-cursor"></div>   
+
+        <footer class="footer titleWrap">
+            <p class="footerText">© 2023</p>
+        </footer>
+
+
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
