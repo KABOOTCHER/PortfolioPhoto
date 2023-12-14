@@ -3,7 +3,7 @@ html{
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
     cursor: none;
-    
+    overflow-x: hidden;
     
 }
 
@@ -401,10 +401,7 @@ input{
     width: 300px;
     height: auto;
   }
-  .mockImg {
-    width:  auto !important;
-    height: auto !important ;
-  }
+
  
   
   .block {
@@ -480,10 +477,7 @@ input{
         width: 40vw;
     }
 
-    .mockImg{
-        
-        width: 40vw;
-    }
+ 
 
     .modal{
         
@@ -499,7 +493,22 @@ input{
         border: 1px solid #ddd;
         border-radius: 15px;
     }
+
+    .slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
     
+    .block{
+    display: flex;
+    object-fit: cover;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    }
 }
 
 
