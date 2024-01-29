@@ -127,8 +127,6 @@ CloseSecondButton.addEventListener("click",() =>{
 //-----------------------СТАРЫЙ СЛАЙДЕР
 
 
-let slides = document.querySelectorAll('.slides');
-let currentSlide = 0
 
 
 
